@@ -8,7 +8,6 @@ model = joblib.load(MODEL_PATH)
 
 st.set_page_config(page_title="Heart Disease Prediction", page_icon="❤️")
 st.title("❤️ Heart Disease Prediction")
-st.caption("Educational AIC354 assignment model — not a medical diagnostic tool.")
 
 with st.form("heart_form"):
     age = st.number_input("Age", 1, 100, 50)
